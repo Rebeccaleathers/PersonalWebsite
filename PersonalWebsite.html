@@ -103,14 +103,15 @@
   .typed-out {
     border-right: .15em solid rgb(252, 143, 19);
     white-space: nowrap;
-    animation: typing 2s steps(20, end) forwards;
+    overflow: hidden;
+    animation: typing 3s steps(20, end) forwards;
     font-size: 1.6rem;
     width: 0;
   }
   
   @keyframes typing {
     from { width: 0 }
-    to { width: 180px }
+    to { width: 260px }
   }
   
   h1 {
@@ -136,10 +137,10 @@
   }
   
   button {
-    padding: 16px 32px;
+    padding: 8px 32px;
     background-color: rgb(252, 143, 19);
     border-radius: 15px;
-    width: 200px;
+    width: 175px;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.95rem;
