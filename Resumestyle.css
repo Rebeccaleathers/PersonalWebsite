@@ -348,9 +348,6 @@
         
     }
     footer {
-        background-color: rgb(252, 143, 19);
-        padding: 2px 30;
-        position: absolute;
-        bottom: 0;
-        width: 100%
+        color: #fff;
+    
     }

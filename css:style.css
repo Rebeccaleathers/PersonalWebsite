@@ -28,7 +28,7 @@ ul li a{
 
 }
 #Contact
-.contact-form {
+Contact {
     max-width: 600px;
     margin: auto;
     padding: 20px;
@@ -73,4 +73,10 @@ ul li a{
   
   .contact-form button[type="submit"]:hover {
     background-color: #3e8e41;
+  }
+  /* Responsive button */
+  @media screen and (max-width: 600px) {
+    .btn {
+      width: 100%;
+    }
   }
